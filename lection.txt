@@ -1,0 +1,36 @@
+man man (manual)
+ls 
+man ls
+ls -lah OR ls -l -a -h
+touch <file.txt>
+vim <name.file>
+===
+vim (текстовый редактор) - https://www.davydovanton.com/2014/03/16/vim-history/
+man <команда>
+hjkl - комманды переноса курсора
+i - insert mode
+esc - переход в глобальный режим
+shift+: - переход к режим команд
+--доп опции отображения
+:set nu -отображение номера строк
+:set nonu or :set nu!
+:set rnu / set nornu
+--переходы
+gg - в начало  
+shift+g - в конец
+shift+a - insert mode начиная с конца строчки 
+shift+^ - переход в начало строчки 
+shift+$ - конец строки
+--визуальный режим редактирование обьектов
+v - visual ( v shift+v ctrl+v(vertical))
+после выделения
+y - yank (скопировали в буфер) переместились в нужное место
+p - paste (вставили выделенное из буфера)
+:wq (write and quit)
+vim +10 <filename.txt> открыть на 10 строке данный файл
+--удаление в unix
+dd
+d^ d$ dd d3l
+--
+rm <file>
+rm *.txt
